@@ -15,7 +15,8 @@ body, html {
 }
 
 .lead {
-    font: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
     font-weight: bold;
     color: #B5509C;
 }
@@ -45,7 +46,8 @@ body, html {
     background-color: #DA70D6;
     color: white;
 }
-#place:hover {background-color: gray}
+
+#place:hover {background-color: magenta;}
 
 #forecastbox {
     display: flex;
