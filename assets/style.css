@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+
+body, html {
+   
+    background-color: black;
+    color: white;
+}
+
+#top-row {
+    height: 20%;
+    color: #B5509C;
+    background-color: lightgrey;
+}
+
+.lead {
+    font: large;
+    font-weight: bold;
+    color: #B5509C;
+}
+
+#location, #info {
+    color: #DA70D6;
+}
+
+
+#submitCity {
+    color: #B5509C;
+}
+
+#table {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+#rowDiv {
+    padding: 10px;
+}
+
+#place {
+    width: 100%;
+    background-color: #DA70D6;
+    color: white;
+}
+#place:hover {background-color: gray}
+
+#forecastbox {
+    display: flex;
+    padding: 30px;
+    background-color: black;
+   
+}
+
+#days {
+    padding: 20px;
+}
+
+#leftRow, #rightRow {
+   padding: 20px;
+
+}
+
+#rightRow {
+    border: #B5509C 5px solid;
+    border-radius: 25px;
+}
